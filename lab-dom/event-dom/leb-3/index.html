@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://google.co.th">
+        <button>submit</button>
+    </form>
+
+    <script>
+        let button = document.querySelector('button');
+        function a(event) {
+            event.preventDefault();
+        }
+        button.addEventListener('click', a);
+
+    </script>
+</body>
+</html>
